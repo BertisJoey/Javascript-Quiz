@@ -22,5 +22,5 @@ The reset stylsheet can be found under ```/assets/css/reset.css```
 
 ![Screenshot of scoring page](./assets/images/screenshot-form-page.png)
 
-![Screenshot of highscores page](./assets/images/screenshots-highscores.png)
+![Screenshot of highscores page](./assets/images/screenshot-highscores.png)
 
