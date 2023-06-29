@@ -167,14 +167,14 @@ btnSubmit.addEventListener("click", function(event) {
         score: finalScoreEl.innerText
     };
 
-    var allHighScores = localStorage.getIte("allHighScores");
+    var allHighScores = localStorage.getItem("allHighScores");
     if (allHighScores === null) {
         allHighScores = [];
     } else {
         allHighScores = JSON.parse(allHighScores);
     }
     allHighScores.push(storedScore);
-    localStorage.setItem("allHighScores", JSON.stringif(allHighScores));
+    localStorage.setItem("allHighScores", JSON.stringify(allHighScores));
 
     //the following sends the user to the second html page after hitting submit and after the data is locally stored
     window.location.href = "./highscores.html";
