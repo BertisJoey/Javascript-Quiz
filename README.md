@@ -16,11 +16,11 @@ The reset stylsheet can be found under ```/assets/css/reset.css```
 ## Link to Site
 
 ## Screenshots of Site
-![Screenshot of first page](./assets/screenshot-quiz.png)
+![Screenshot of first page](./assets/images/screenshot-quiz.png)
 
-![Screenshot of a question](./assets/screenshot-questions.png)
+![Screenshot of a question](./assets/images/screenshot-questions.png)
 
-![Screenshot of scoring page](./assets/screenshot-form-page.png)
+![Screenshot of scoring page](./assets/images/screenshot-form-page.png)
 
-![Screenshot of highscores page](./assets/screenshots-highscores.png)
+![Screenshot of highscores page](./assets/images/screenshots-highscores.png)
 
