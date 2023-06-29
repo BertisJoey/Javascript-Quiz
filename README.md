@@ -14,6 +14,7 @@ The reset stylsheet can be found under ```/assets/css/reset.css```
 
 
 ## Link to Site
+https://bertisjoey.github.io/Javascript-Quiz/
 
 ## Screenshots of Site
 ![Screenshot of first page](./assets/images/screenshot-quiz.png)
