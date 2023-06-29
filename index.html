@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./assets/css/reset.css" />
+    <link rel = "stylesheet" href = "./assets/css/style.css" />
+    <title>Javascript Quiz</title>
+</head>
+
+<body>
+    <header>
+        <h4><a href ="./highscores.html">Highscores</a></h4>
+        <h4>Time: <span id = "timer"></span> </h4>
+    </header>
+    <div class = "container">
+        <div id = "start-container">
+            <h1>Javascript Coding Quiz</h1>
+            <p>Try to answer the following questions about Javascript before the timer at the top right of your screen runs out! Any wrong answers and you will lose time!</p>
+            <button id = "startQuiz" class = "btn">Start Quiz</button>
+        </div>
+
+        <div id = "question-container" class = "hide">
+            <div id = "question"></div>
+            <div id = "answer-buttons" class = "btn-grid"></div>
+        </div>
+
+        <div id = "end-container" class = "hide">
+            <h1>You made it!</h1>
+            <p>Your final score is <span id = final-score></span>! Type your initials below.</p>
+            <form id = initials-form>
+                <input type = "text" id = "initials-input"/>
+                <button id = "submit-score" class = "btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src = "./assets/script/script.js"></script>
+</body>
+</html>
